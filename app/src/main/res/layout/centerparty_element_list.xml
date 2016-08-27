@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_centerPartyType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/itemCenter" />
+
+    <TextView
+        android:id="@+id/text_view_centerPartyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/titleCenter"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_centerPartyAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/itemCenter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:padding="8dp"
+        android:layout_gravity="end"
+        android:background="@android:color/transparent"
+        android:onClick="viewCenterDetail"
+        android:text="@string/moreInformationLabel_button"
+        android:textColor="@color/darkpurple"
+        android:textSize="@dimen/buttonForm"/>
+
+</LinearLayout>

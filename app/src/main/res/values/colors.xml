@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="black_bg">#404040</color>
+    <color name="inputlabel">#616161</color>
+    <color name="btn_bg">#7f7d7f</color>
+    <color name="gray_bg">#A7A7A7</color>
+    <color name="light_grey">#EEEEEE</color>
+    <color name="white_bg">#fafafa</color>
+    <color name="white">#ffffff</color>
+
+    <color name="lightpink">#FF638F</color>
+    <color name="darkpink">#F5507E</color>
+    <color name="lightpurple">#B39DDB</color>
+    <color name="mediumpurple">#BA68C8</color>
+    <color name="darkpurple">#6A1B9A</color>
+    <color name="lightgrey">#CACDD3</color>
+    <color name="mediumgrey">#616161</color>
+    <color name="darkgrey">#424242</color>
+    <color name="dirtywhite">#F3F5F9</color>
+
+    <!-- para borrar -->
+    <color name="lightgreen">#24C5A1</color>
+    <color name="darkgreen">#1EB493</color>
+    <color name="lightblue">#5CBCFF</color>
+    <color name="darkblue">#5DAFF2</color>
+    <color name="lightorange">#FFA24F</color>
+    <color name="darkorange">#F89338</color>
+    <color name="view_bg">#43A047</color>
+    <color name="blue_bg">#6086C3</color>
+    <color name="red_alert">#D94A3E</color>
+    <color name="green_gps">#9BC12B</color>
+    <color name="green_bg">#AED581</color>
+    <color name="purple_party">#B39DDB</color>
+    <color name="pink_udefulinfo">#FF4081</color>
+    <color name="yellow">#F7C53B</color>
+    <color name="red_alert_low">#FFCDD2</color>
+    <color name="red_alert_medium">#F44336</color>
+    <color name="red_alert_high">#B71C1C</color>
+
+</resources>

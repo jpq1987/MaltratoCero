@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dirtywhite"
+    android:orientation="vertical"
+    tools:context="com.gdg.jpq.maltratocero.PartySearchActivity">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_view_parties"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/lightgrey"
+        android:dividerHeight="1dp"
+        android:padding="5dp"/>
+
+</LinearLayout>

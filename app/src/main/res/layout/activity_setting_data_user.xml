@@ -1,0 +1,251 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dirtywhite"
+    android:orientation="vertical"
+    tools:context="com.gdg.jpq.maltratocero.SettingDataUserActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view_formDataUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dirtywhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/text_view_fullnameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/fullnameLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_fullnameLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:inputType="textPersonName"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:textSize="@dimen/inputForm" />
+
+            <TextView
+                android:id="@+id/text_view_dniLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_text_fullname"
+                android:layout_marginTop="16dp"
+                android:text="@string/dniLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_dni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_dniLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:inputType="number"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:textSize="@dimen/inputForm" />
+
+            <TextView
+                android:id="@+id/text_view_birthdayLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_text_dni"
+                android:layout_marginTop="16dp"
+                android:text="@string/birthdayLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_birthdayLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:inputType="date"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:textSize="@dimen/inputForm" />
+
+            <TextView
+                android:id="@+id/text_view_mobilephoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_text_birthday"
+                android:layout_marginTop="16dp"
+                android:text="@string/mobilephoneLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_mobilephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_mobilephoneLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:inputType="phone"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:textSize="@dimen/inputForm" />
+
+            <TextView
+                android:id="@+id/text_view_telephoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_text_mobilephone"
+                android:layout_marginTop="16dp"
+                android:text="@string/telephoneLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_telephoneLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:inputType="phone"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:textSize="@dimen/inputForm" />
+
+            <TextView
+                android:id="@+id/text_view_addressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_text_telephone"
+                android:layout_marginTop="16dp"
+                android:text="@string/addressLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_addressLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:inputType="textPostalAddress"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:textSize="@dimen/inputForm" />
+
+            <TextView
+                android:id="@+id/text_view_partieLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_text_address"
+                android:layout_marginTop="16dp"
+                android:text="@string/partieLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_parties"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_partieLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:paddingBottom="8dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:id="@+id/text_view_emailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner_parties"
+                android:layout_marginTop="16dp"
+                android:text="@string/emailLabel_textView"
+                android:textColor="@color/inputlabel"
+                android:textSize="@dimen/labelForm"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_text_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_emailLabel"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/borderlist_drawable"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:textSize="@dimen/inputForm" />
+
+            <Button
+                android:id="@+id/button_saveUserData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/edit_text_email"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darkpurple"
+                android:text="@string/saveUserData_button"
+                android:textColor="@color/white_bg"
+                android:textSize="@dimen/buttonForm" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

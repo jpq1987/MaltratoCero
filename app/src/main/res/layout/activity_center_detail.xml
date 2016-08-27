@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dirtywhite"
+    android:orientation="vertical"
+    tools:context="com.gdg.jpq.maltratocero.CenterDetailActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view_formDataUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dirtywhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/map_fragment_detail"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/dirtywhite">
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyNameD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text=""
+                    android:textColor="@color/darkpurple"
+                    android:textSize="@dimen/titleCenter"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tipoinstitucion_centro_tv"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyTypeD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/horariosatencion_centro_tv"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyAttentionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titular_centro_tv"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyTitularD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion_centro_tv"
+                    android:textColor="@color/black_bg"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyAddressD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyLocprovD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono_centro_tv"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyTelephoneD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:autoLink="phone"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mail_centro_tv"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyMailD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:autoLink="email"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/web_centro_tv"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyWebD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descripcion_centro_tv"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_centerPartyDescriptionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text=""
+                    android:textSize="@dimen/itemCenter" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

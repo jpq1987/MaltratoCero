@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dirtywhite"
+    android:orientation="vertical"
+    tools:context="com.gdg.jpq.maltratocero.AlertActivity">
+
+    <Button
+        android:id="@+id/button_sendAlertMessage1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@color/lightpurple"
+        android:singleLine="false"
+        android:text="@string/sendAlertLabel1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/inputForm" />
+
+    <Button
+        android:id="@+id/button_sendAlertMessage2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:background="@color/mediumpurple"
+        android:singleLine="false"
+        android:text="@string/sendAlertLabel2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/inputForm" />
+
+    <Button
+        android:id="@+id/button_sendAlertMessage3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:background="@color/darkpurple"
+        android:singleLine="false"
+        android:text="@string/sendAlertLabel3"
+        android:textColor="@color/white"
+        android:textSize="@dimen/inputForm" />
+
+</LinearLayout>

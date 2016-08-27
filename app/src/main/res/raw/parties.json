@@ -1,0 +1,811 @@
+[{
+    "id": 1,
+    "nombre": "Adolfo Alsina",
+    "latitud": -37.159177,
+    "longitud": -62.9077325
+},
+{
+    "id": 2,
+    "nombre": "Alberti",
+    "latitud": -35.0311926,
+    "longitud": -60.2808133
+},
+{
+    "id": 3,
+    "nombre": "Almirante Brown",
+    "latitud": -34.8281511,
+    "longitud": -58.3865471
+},
+{
+    "id": 128,
+    "nombre": "Ameghino",
+    "latitud": -34.7653944,
+    "longitud": -62.5516235
+},
+{
+    "id": 10,
+    "nombre": "Arrecifes",
+    "latitud": -34.066436,
+    "longitud": -60.1009675
+},
+{
+    "id": 4,
+    "nombre": "Avellaneda",
+    "latitud": -34.6613785,
+    "longitud": -58.3676521
+},
+{
+    "id": 5,
+    "nombre": "Ayacucho",
+    "latitud": -37.149591,
+    "longitud": -58.482766
+},
+{
+    "id": 6,
+    "nombre": "Azul",
+    "latitud": -36.772316,
+    "longitud": -59.8510875
+},
+{
+    "id": 7,
+    "nombre": "Bahía Blanca",
+    "latitud": -38.7212295,
+    "longitud": -62.2563724
+},
+{
+    "id": 8,
+    "nombre": "Balcarce",
+    "latitud": -37.8672771,
+    "longitud": -58.2678417
+},
+{
+    "id": 9,
+    "nombre": "Baradero",
+    "latitud": -33.8070572,
+    "longitud": -59.5022191
+},
+{
+    "id": 53,
+    "nombre": "Benito Juarez",
+    "latitud": -37.6778105,
+    "longitud": -59.807758
+},
+{
+    "id": 120,
+    "nombre": "Berazategui",
+    "latitud": -34.7628735,
+    "longitud": -58.1984588
+},
+{
+    "id": 114,
+    "nombre": "Berisso",
+    "latitud": -34.8947666,
+    "longitud": -57.8602067
+},
+{
+    "id": 11,
+    "nombre": "Bolivar",
+    "latitud": -36.2845462,
+    "longitud": -61.1272827
+},
+{
+    "id": 12,
+    "nombre": "Bragado",
+    "latitud": -35.1151906,
+    "longitud": -60.4867859
+},
+{
+    "id": 13,
+    "nombre": "Brandsen",
+    "latitud": -35.159581,
+    "longitud": -58.2333527
+},
+{
+    "id": 14,
+    "nombre": "Campana",
+    "latitud": -34.1842717,
+    "longitud": -58.954501
+},
+{
+    "id": 15,
+    "nombre": "Cañuelas",
+    "latitud": -35.049393,
+    "longitud": -58.756742
+},
+{
+    "id": 121,
+    "nombre": "Capitan Sarmiento",
+    "latitud": -34.168983,
+    "longitud": -59.7892876
+},
+{
+    "id": 16,
+    "nombre": "Carlos Casares",
+    "latitud": -35.622663,
+    "longitud": -61.359829
+},
+{
+    "id": 17,
+    "nombre": "Carlos Tejedor",
+    "latitud": -35.3916425,
+    "longitud": -62.4199024
+},
+{
+    "id": 18,
+    "nombre": "Carmen De Areco",
+    "latitud": -34.3839001,
+    "longitud": -59.8302002
+},
+{
+    "id": 20,
+    "nombre": "Castelli",
+    "latitud": -36.0910043,
+    "longitud": -57.8059505
+},
+{
+    "id": 26,
+    "nombre": "Chacabuco",
+    "latitud": -34.6385612,
+    "longitud": -60.465971
+},
+{
+    "id": 27,
+    "nombre": "Chascomus",
+    "latitud": -35.577226,
+    "longitud": -58.011646
+},
+{
+    "id": 28,
+    "nombre": "Chivilcoy",
+    "latitud": -34.8903003,
+    "longitud": -60.0253536
+},
+{
+    "id": 21,
+    "nombre": "Colon",
+    "latitud": -33.8973102,
+    "longitud": -61.0939426
+},
+{
+    "id": 22,
+    "nombre": "Coronel Dorrego",
+    "latitud": -38.7165334,
+    "longitud": -61.2871653
+},
+{
+    "id": 23,
+    "nombre": "Coronel Pringles",
+    "latitud": -37.9917689,
+    "longitud": -61.3698652
+},
+{
+    "id": 113,
+    "nombre": "Coronel Rosales",
+    "latitud": -38.877029,
+    "longitud": -62.073874
+},
+{
+    "id": 24,
+    "nombre": "Coronel Suarez",
+    "latitud": -37.4588128,
+    "longitud": -61.9198952
+},
+{
+    "id": 19,
+    "nombre": "Daireaux",
+    "latitud": -36.6012936,
+    "longitud": -61.7704545
+},
+{
+    "id": 29,
+    "nombre": "Dolores",
+    "latitud": -36.3157367,
+    "longitud": -57.6827126
+},
+{
+    "id": 115,
+    "nombre": "Ensenada",
+    "latitud": -34.867004,
+    "longitud": -57.911123
+},
+{
+    "id": 118,
+    "nombre": "Escobar",
+    "latitud": -34.340662,
+    "longitud": -58.785526
+},
+{
+    "id": 30,
+    "nombre": "Esteban Echeverria",
+    "latitud": -34.873696,
+    "longitud": -58.474787
+},
+{
+    "id": 31,
+    "nombre": "Exaltacion De La Cruz",
+    "latitud": -34.290389,
+    "longitud": -59.101977
+},
+{
+    "id": 130,
+    "nombre": "Ezeiza",
+    "latitud": -34.854338,
+    "longitud": -58.521484
+},
+{
+    "id": 32,
+    "nombre": "Florencio Varela",
+    "latitud": -34.79603,
+    "longitud": -58.27707
+},
+{
+    "id": 33,
+    "nombre": "General Alvarado",
+    "latitud": -38.208507,
+    "longitud": -58.060939
+},
+{
+    "id": 34,
+    "nombre": "General Alvear",
+    "latitud": -36.0218238,
+    "longitud": -60.0145678
+},
+{
+    "id": 35,
+    "nombre": "General Arenales",
+    "latitud": -34.3027034,
+    "longitud": -61.303791
+},
+{
+    "id": 36,
+    "nombre": "General Belgrano",
+    "latitud": -35.7671427,
+    "longitud": -58.4959946
+},
+{
+    "id": 37,
+    "nombre": "General Guido",
+    "latitud": -36.641043,
+    "longitud": -57.788311
+},
+{
+    "id": 40,
+    "nombre": "General Lamadrid",
+    "latitud": -37.247642,
+    "longitud": -61.2606163
+},
+{
+    "id": 41,
+    "nombre": "General Las Heras",
+    "latitud": -34.925738,
+    "longitud": -58.949046
+},
+{
+    "id": 42,
+    "nombre": "General Lavalle",
+    "latitud": -36.405293,
+    "longitud": -56.945747
+},
+{
+    "id": 39,
+    "nombre": "General Madariaga",
+    "latitud": -37.001349,
+    "longitud": -57.135546
+},
+{
+    "id": 43,
+    "nombre": "General Paz",
+    "latitud": -35.4712965,
+    "longitud": -58.3722211
+},
+{
+    "id": 44,
+    "nombre": "General Pinto",
+    "latitud": -34.764774,
+    "longitud": -61.892797
+},
+{
+    "id": 45,
+    "nombre": "General Pueyrredón",
+    "latitud": -37.971739,
+    "longitud": -57.7822923
+},
+{
+    "id": 46,
+    "nombre": "General Rodríguez",
+    "latitud": -34.608191,
+    "longitud": -58.932756
+},
+{
+    "id": 47,
+    "nombre": "General San Martín",
+    "latitud": -34.552694,
+    "longitud": -58.562365
+},
+{
+    "id": 49,
+    "nombre": "General Viamonte",
+    "latitud": -35.000746,
+    "longitud": -61.038135
+},
+{
+    "id": 50,
+    "nombre": "General Villegas",
+    "latitud": -35.0327247,
+    "longitud": -63.0148036
+},
+{
+    "id": 51,
+    "nombre": "Gonzales Chaves",
+    "latitud": -38.0346712,
+    "longitud": -60.1007118
+},
+{
+    "id": 52,
+    "nombre": "Guamini",
+    "latitud": -37.012808,
+    "longitud": -62.417698
+},
+{
+    "id": 119,
+    "nombre": "Hipolito Yrigoyen",
+    "latitud": -36.297568,
+    "longitud": -61.699416
+},
+{
+    "id": 135,
+    "nombre": "Hurlingham",
+    "latitud": -34.5910184,
+    "longitud": -58.638227
+},
+{
+    "id": 136,
+    "nombre": "Ituzaingó",
+    "latitud": -34.647666,
+    "longitud": -58.684076
+},
+{
+    "id": 132,
+    "nombre": "Jose C. Paz",
+    "latitud": -34.52331,
+    "longitud": -58.76686
+},
+{
+    "id": 54,
+    "nombre": "Junín",
+    "latitud": -34.588573,
+    "longitud": -60.949938
+},
+{
+    "id": 123,
+    "nombre": "La Costa",
+    "latitud": -36.625764,
+    "longitud": -56.692761
+},
+{
+    "id": 55,
+    "nombre": "La Plata",
+    "latitud": -34.921232,
+    "longitud": -57.954029
+},
+{
+    "id": 25,
+    "nombre": "Lanús",
+    "latitud": -34.6994171,
+    "longitud": -58.3926315
+},
+{
+    "id": 56,
+    "nombre": "Laprida",
+    "latitud": -37.5454208,
+    "longitud": -60.7987099
+},
+{
+    "id": 58,
+    "nombre": "Las Flores",
+    "latitud": -36.014674,
+    "longitud": -59.101027
+},
+{
+    "id": 59,
+    "nombre": "Leandro N. Alem",
+    "latitud": -34.518123,
+    "longitud": -61.392058
+},
+{
+    "id": 137,
+    "nombre": "Lezama",
+    "latitud": -35.8754916,
+    "longitud": -57.8980331
+},
+{
+    "id": 60,
+    "nombre": "Lincoln",
+    "latitud": -34.860931,
+    "longitud": -61.528019
+},
+{
+    "id": 61,
+    "nombre": "Loberia",
+    "latitud": -38.131216,
+    "longitud": -58.725953
+},
+{
+    "id": 62,
+    "nombre": "Lobos",
+    "latitud": -35.176976,
+    "longitud": -59.097647
+},
+{
+    "id": 63,
+    "nombre": "Lomas De Zamora",
+    "latitud": -34.761859,
+    "longitud": -58.425078
+},
+{
+    "id": 64,
+    "nombre": "Luján",
+    "latitud": -34.566533,
+    "longitud": -59.107271
+},
+{
+    "id": 65,
+    "nombre": "Magdalena",
+    "latitud": -35.0764994,
+    "longitud": -57.5175362
+},
+{
+    "id": 66,
+    "nombre": "Maipu",
+    "latitud": -36.861255,
+    "longitud": -57.881935
+},
+{
+    "id": 133,
+    "nombre": "Malvinas Argentinas",
+    "latitud": -34.820057,
+    "longitud": -58.424848
+},
+{
+    "id": 69,
+    "nombre": "Mar Chiquita",
+    "latitud": -37.744543,
+    "longitud": -57.428451
+},
+{
+    "id": 68,
+    "nombre": "Marcos Paz",
+    "latitud": -34.783157,
+    "longitud": -58.835678
+},
+{
+    "id": 70,
+    "nombre": "Matanza",
+    "latitud": -34.6775888,
+    "longitud": -58.5616913
+},
+{
+    "id": 71,
+    "nombre": "Mercedes",
+    "latitud": -34.654029,
+    "longitud": -59.420202
+},
+{
+    "id": 72,
+    "nombre": "Merlo",
+    "latitud": -34.681264,
+    "longitud": -58.738872
+},
+{
+    "id": 73,
+    "nombre": "Monte",
+    "latitud": -35.4377665,
+    "longitud": -58.8067055
+},
+{
+    "id": 126,
+    "nombre": "Monte Hermoso",
+    "latitud": -38.988594,
+    "longitud": -61.277128
+},
+{
+    "id": 74,
+    "nombre": "Moreno",
+    "latitud": -34.642797,
+    "longitud": -58.791517
+},
+{
+    "id": 101,
+    "nombre": "Morón",
+    "latitud": -34.665116,
+    "longitud": -58.617542
+},
+{
+    "id": 75,
+    "nombre": "Navarro",
+    "latitud": -35.002474,
+    "longitud": -59.269348
+},
+{
+    "id": 76,
+    "nombre": "Necochea",
+    "latitud": -38.56591,
+    "longitud": -58.747693
+},
+{
+    "id": 77,
+    "nombre": "Nueve De Julio",
+    "latitud": -35.456485,
+    "longitud": -60.892035
+},
+{
+    "id": 78,
+    "nombre": "Olavarria",
+    "latitud": -36.892421,
+    "longitud": -60.287716
+},
+{
+    "id": 79,
+    "nombre": "Patagones",
+    "latitud": -40.789614,
+    "longitud": -62.982819
+},
+{
+    "id": 80,
+    "nombre": "Pehuajó",
+    "latitud": -35.823634,
+    "longitud": -61.889632
+},
+{
+    "id": 81,
+    "nombre": "Pellegrini",
+    "latitud": -36.2681864,
+    "longitud": -63.1615372
+},
+{
+    "id": 82,
+    "nombre": "Pergamino",
+    "latitud": -33.892076,
+    "longitud": -60.570579
+},
+{
+    "id": 83,
+    "nombre": "Pila",
+    "latitud": -36.002177,
+    "longitud": -58.14049
+},
+{
+    "id": 84,
+    "nombre": "Pilar",
+    "latitud": -34.456047,
+    "longitud": -58.908329
+},
+{
+    "id": 124,
+    "nombre": "Pinamar",
+    "latitud": -37.104826,
+    "longitud": -56.858341
+},
+{
+    "id": 129,
+    "nombre": "Pte. Peron",
+    "latitud": -34.935677,
+    "longitud": -58.395138
+},
+{
+    "id": 85,
+    "nombre": "Puan",
+    "latitud": -37.542979,
+    "longitud": -62.766798
+},
+{
+    "id": 134,
+    "nombre": "Punta Indio",
+    "latitud": -35.274487,
+    "longitud": -57.260395
+},
+{
+    "id": 86,
+    "nombre": "Quilmes",
+    "latitud": -34.724609,
+    "longitud": -58.250551
+},
+{
+    "id": 87,
+    "nombre": "Ramallo",
+    "latitud": -33.485984,
+    "longitud": -60.007024
+},
+{
+    "id": 88,
+    "nombre": "Rauch",
+    "latitud": -36.774878,
+    "longitud": -59.088568
+},
+{
+    "id": 89,
+    "nombre": "Rivadavia",
+    "latitud": -35.554464,
+    "longitud": -63.057544
+},
+{
+    "id": 90,
+    "nombre": "Rojas",
+    "latitud": -34.197047,
+    "longitud": -60.729292
+},
+{
+    "id": 91,
+    "nombre": "Roque Perez",
+    "latitud": -35.397135,
+    "longitud": -59.331398
+},
+{
+    "id": 92,
+    "nombre": "Saavedra",
+    "latitud": -34.550532,
+    "longitud": -58.486671
+},
+{
+    "id": 93,
+    "nombre": "Saladillo",
+    "latitud": -35.636049,
+    "longitud": -59.776146
+},
+{
+    "id": 122,
+    "nombre": "Salliquelo",
+    "latitud": -36.751548,
+    "longitud": -62.95898
+},
+{
+    "id": 67,
+    "nombre": "Salto",
+    "latitud": -34.293469,
+    "longitud": -60.250724
+},
+{
+    "id": 94,
+    "nombre": "San Andres De Giles",
+    "latitud": -34.450188,
+    "longitud": -59.44626
+},
+{
+    "id": 95,
+    "nombre": "San Antonio De Areco",
+    "latitud": -34.250902,
+    "longitud": -59.466225
+},
+{
+    "id": 116,
+    "nombre": "San Cayetano",
+    "latitud": -38.345487,
+    "longitud": -59.614027
+},
+{
+    "id": 96,
+    "nombre": "San Fernando",
+    "latitud": -34.445662,
+    "longitud": -58.564196
+},
+{
+    "id": 97,
+    "nombre": "San Isidro",
+    "latitud": -34.474875,
+    "longitud": -58.528448
+},
+{
+    "id": 131,
+    "nombre": "San Miguel",
+    "latitud": -34.551731,
+    "longitud": -58.732529
+},
+{
+    "id": 98,
+    "nombre": "San Nicolás",
+    "latitud": -33.353027,
+    "longitud": -60.22011
+},
+{
+    "id": 99,
+    "nombre": "San Pedro",
+    "latitud": -33.686913,
+    "longitud": -59.664923
+},
+{
+    "id": 100,
+    "nombre": "San Vicente",
+    "latitud": -35.024064,
+    "longitud": -58.423543
+},
+{
+    "id": 102,
+    "nombre": "Suipacha",
+    "latitud": -34.771362,
+    "longitud": -59.684597
+},
+{
+    "id": 103,
+    "nombre": "Tandil",
+    "latitud": -37.322117,
+    "longitud": -59.144075
+},
+{
+    "id": 104,
+    "nombre": "Tapalque",
+    "latitud": -36.358622,
+    "longitud": -60.023147
+},
+{
+    "id": 57,
+    "nombre": "Tigre",
+    "latitud": -34.427947,
+    "longitud": -58.578248
+},
+{
+    "id": 105,
+    "nombre": "Tordillo",
+    "latitud": -36.492851,
+    "longitud": -57.305031
+},
+{
+    "id": 106,
+    "nombre": "Tornquist",
+    "latitud": -38.101574,
+    "longitud": -62.222958
+},
+{
+    "id": 107,
+    "nombre": "Trenque Lauquen",
+    "latitud": -35.976924,
+    "longitud": -62.727581
+},
+{
+    "id": 108,
+    "nombre": "Tres Arroyos",
+    "latitud": -38.375857,
+    "longitud": -60.282379
+},
+{
+    "id": 117,
+    "nombre": "Tres De Febrero",
+    "latitud": -34.602264,
+    "longitud": -58.573729
+},
+{
+    "id": 127,
+    "nombre": "Tres Lomas",
+    "latitud": -36.458249,
+    "longitud": -62.854027
+},
+{
+    "id": 109,
+    "nombre": "Veinticinco De Mayo",
+    "latitud": -35.432356,
+    "longitud": -60.170896
+},
+{
+    "id": 110,
+    "nombre": "Vicente Lopez",
+    "latitud": -34.524627,
+    "longitud": -58.475241
+},
+{
+    "id": 125,
+    "nombre": "Villa Gesell",
+    "latitud": -37.26459,
+    "longitud": -56.986744
+},
+{
+    "id": 111,
+    "nombre": "Villarino",
+    "latitud": -39.233422,
+    "longitud": -62.706337
+},
+{
+    "id": 38,
+    "nombre": "Zárate",
+    "latitud": -34.105681,
+    "longitud": -59.037319
+}
+]

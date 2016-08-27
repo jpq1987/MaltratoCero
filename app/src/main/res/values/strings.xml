@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">MaltratoCero</string>
+
+    <!-- General Strings -->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="exitIntent_description">Salir</string>
+
+    <!-- MainActivity Strings -->
+    <string name="logoConsejo_description">Logo del slogan MaltratoCero</string>
+    <string name="searchGPS_description">Icono de Localizar con GPS</string>
+    <string name="searchGPS_textView">Búsqueda por GPS</string>
+    <string name="searchParty_description">Icono de Búsqueda por partidos</string>
+    <string name="searchParty_textView">Búsqueda por Partido</string>
+    <string name="usefulInformation_description">Icono de Información Útil</string>
+    <string name="usefulInformation_textView">Información Útil</string>
+    <string name="contact_description">Icono de Contacto</string>
+    <string name="contact_textView">Contacto</string>
+    <string name="action_edituser_menu">Perfil</string>
+    <string name="action_editalerts_menu">Mensajes predefinidos</string>
+    <string name="settingMessageAlert_textView">asas</string>
+
+    <!-- SettingDataUserActivity Strings -->
+    <string name="title_activity_setting_data_user">Perfil de Usuario</string>
+    <string name="settingDataUser_textView">Perfil de Usuario</string>
+    <string name="fullnameLabel_textView">Nombre completo</string>
+    <string name="dniLabel_textView">DNI</string>
+    <string name="birthdayLabel_textView">Fecha de nacimiento</string>
+    <string name="mobilephoneLabel_textView">Celular</string>
+    <string name="telephoneLabel_textView">Teléfono fijo</string>
+    <string name="addressLabel_textView">Domicilio</string>
+    <string name="emailLabel_textView">Email</string>
+    <string name="partieLabel_textView">Partido</string>
+    <string name="saveUserData_button">Guardar datos</string>
+
+    <!-- SettingMessageAlertActivity Strings -->
+    <string name="title_activity_setting_message_alert">Configuración de Alertas</string>
+    <string name="referenceContactLabel_textView">Contacto de referencia</string>
+    <string name="referenceContact_textView">No seleccionado</string>
+    <string name="btnSearchContact">Seleccionar</string>
+    <string name="message1Label_textView">Primer mensaje de alerta</string>
+    <string name="message2Label_textView">Segundo mensaje de alerta</string>
+    <string name="message3Label_textView">Tercer mensaje de alerta</string>
+    <string name="saveAlertMessages_button">Guardar Datos</string>
+
+    <!-- ContactActivity Strings -->
+    <string name="title_activity_contact">Contacto</string>
+    <string name="messageLabel_textView">Mensaje</string>
+    <string name="sendMessageContact_button">Enviar Mensaje</string>
+
+    <!-- GpsSearchActivity Strings -->
+    <string name="title_activity_gps_search">Búsqueda por GPS</string>
+
+    <!-- PartySearchActivity Strings -->
+    <string name="title_activity_party_search">Búsqueda por Partido</string>
+    <string name="partyIcon_imageView">Icono del Partido</string>
+    <string name="viewParty_imageView">Icono ver Partido</string>
+    <string name="partyName_textView">Nombre del Partido</string>
+
+    <!-- PartyCentersActivity Strings -->
+    <string name="title_activity_party_centres">Centros de Atencion</string>
+    <string name="moreInformationLabel_button">Más Información</string>
+
+    <!-- CenterDetailActivity Strings -->
+    <string name="title_activity_center_detail">Detalle del Centro</string>
+    <string name="tipoinstitucion_centro_tv">Tipo de institución</string>
+    <string name="horariosatencion_centro_tv">Horarios de atención</string>
+    <string name="titular_centro_tv">Titular</string>
+    <string name="descripcion_centro_tv">Descripción</string>
+    <string name="direccion_centro_tv">Dirección</string>
+    <string name="telefono_centro_tv">Teléfono</string>
+    <string name="mail_centro_tv">Mail</string>
+    <string name="web_centro_tv">Web</string>
+
+    <!-- UsefulInformationActivity Strings -->
+    <string name="title_activity_useful_information">Información Útil</string>
+
+    <!-- AlertActivity Strings -->
+    <string name="title_activity_alert">Enviar Alerta</string>
+    <string name="sendAlertLabel1">Enviar alerta 1</string>
+    <string name="sendAlertLabel2">Enviar alerta 2</string>
+    <string name="sendAlertLabel3">Enviar alerta 3</string>
+
+    <string-array name="contactParties">
+        <item>Adolfo Alsina</item>
+        <item>Alberti</item>
+        <item>Almirante Brown</item>
+        <item>Ameghino</item>
+        <item>Arrecifes</item>
+        <item>Avellaneda</item>
+        <item>Ayacucho</item>
+        <item>Azul</item>
+        <item>Bahía Blanca</item>
+        <item>Balcarce</item>
+        <item>Baradero</item>
+        <item>Benito Juarez</item>
+        <item>Berazategui</item>
+        <item>Berisso</item>
+        <item>Bolivar</item>
+        <item>Bragado</item>
+        <item>Brandsen</item>
+        <item>Campana</item>
+        <item>Cañuelas</item>
+        <item>Capitan Sarmiento</item>
+        <item>Carlos Casares</item>
+        <item>Carlos Tejedor</item>
+        <item>Carmen De Areco</item>
+        <item>Castelli</item>
+        <item>Chacabuco</item>
+        <item>Chascomus</item>
+        <item>Chivilcoy</item>
+        <item>Colon</item>
+        <item>Coronel Dorrego</item>
+        <item>Coronel Pringles</item>
+        <item>Coronel Rosales</item>
+        <item>Coronel Suarez</item>
+        <item>Daireaux</item>
+        <item>Dolores</item>
+        <item>Ensenada</item>
+        <item>Escobar</item>
+        <item>Esteban Echeverria</item>
+        <item>Exaltacion De La Cruz</item>
+        <item>Ezeiza</item>
+        <item>Florencio Varela</item>
+        <item>General Alvarado</item>
+        <item>General Alvear</item>
+        <item>General Arenales</item>
+        <item>General Belgrano</item>
+        <item>General Guido</item>
+        <item>General Lamadrid</item>
+        <item>General Las Heras</item>
+        <item>General Lavalle</item>
+        <item>General Madariaga</item>
+        <item>General Paz</item>
+        <item>General Pinto</item>
+        <item>General Pueyrredón</item>
+        <item>General Rodríguez</item>
+        <item>General San Martín</item>
+        <item>General Viamonte</item>
+        <item>General Villegas</item>
+        <item>Gonzales Chaves</item>
+        <item>Guamini</item>
+        <item>Hipolito Yrigoyen</item>
+        <item>Hurlingham</item>
+        <item>Ituzaingó</item>
+        <item>Jose C. Paz</item>
+        <item>Junín</item>
+        <item>La Costa</item>
+        <item>La Plata</item>
+        <item>Lanús</item>
+        <item>Laprida</item>
+        <item>Las Flores</item>
+        <item>Leandro N. Alem</item>
+        <item>Lezama</item>
+        <item>Lincoln</item>
+        <item>Loberia</item>
+        <item>Lobos</item>
+        <item>Lomas De Zamora</item>
+        <item>Luján</item>
+        <item>Magdalena</item>
+        <item>Maipu</item>
+        <item>Malvinas Argentinas</item>
+        <item>Mar Chiquita</item>
+        <item>Marcos Paz</item>
+        <item>Matanza</item>
+        <item>Mercedes</item>
+        <item>Merlo</item>
+        <item>Monte</item>
+        <item>Monte Hermoso</item>
+        <item>Moreno</item>
+        <item>Morón</item>
+        <item>Navarro</item>
+        <item>Necochea</item>
+        <item>Nueve De Julio</item>
+        <item>Olavarria</item>
+        <item>Patagones</item>
+        <item>Pehuajó</item>
+        <item>Pellegrini</item>
+        <item>Pergamino</item>
+        <item>Pila</item>
+        <item>Pilar</item>
+        <item>Pinamar</item>
+        <item>Pte. Peron</item>
+        <item>Puan</item>
+        <item>Punta Indio</item>
+        <item>Quilmes</item>
+        <item>Ramallo</item>
+        <item>Rauch</item>
+        <item>Rivadavia</item>
+        <item>Rojas</item>
+        <item>Roque Perez</item>
+        <item>Saavedra</item>
+        <item>Saladillo</item>
+        <item>Salliquelo</item>
+        <item>Salto</item>
+        <item>San Andres De Giles</item>
+        <item>San Antonio De Areco</item>
+        <item>San Cayetano</item>
+        <item>San Fernando</item>
+        <item>San Isidro</item>
+        <item>San Miguel</item>
+        <item>San Nicolás</item>
+        <item>San Pedro</item>
+        <item>San Vicente</item>
+        <item>Suipacha</item>
+        <item>Tandil</item>
+        <item>Tapalque</item>
+        <item>Tigre</item>
+        <item>Tordillo</item>
+        <item>Tornquist</item>
+        <item>Trenque Lauquen</item>
+        <item>Tres Arroyos</item>
+        <item>Tres De Febrero</item>
+        <item>Tres Lomas</item>
+        <item>Veinticinco De Mayo</item>
+        <item>Vicente Lopez</item>
+        <item>Villa Gesell</item>
+        <item>Villarino</item>
+        <item>Zárate</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

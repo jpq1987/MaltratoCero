@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dirtywhite"
+    android:orientation="vertical"
+    tools:context="com.gdg.jpq.maltratocero.ContactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/dirtywhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/fullnameLabel_textView"
+            android:textColor="@color/inputlabel"
+            android:textSize="@dimen/labelForm"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_contactFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/borderlist_drawable"
+            android:inputType="textPersonName"
+            android:paddingBottom="8dp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="8dp"
+            android:textSize="@dimen/inputForm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/emailLabel_textView"
+            android:textColor="@color/inputlabel"
+            android:textSize="@dimen/labelForm"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_contactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/borderlist_drawable"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="8dp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="8dp"
+            android:textSize="@dimen/inputForm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/partieLabel_textView"
+            android:textColor="@color/inputlabel"
+            android:textSize="@dimen/labelForm"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_contactParties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/borderlist_drawable"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/messageLabel_textView"
+            android:textColor="@color/inputlabel"
+            android:textSize="@dimen/labelForm"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_contactMessage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/borderlist_drawable"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:paddingBottom="8dp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="8dp"
+            android:textSize="@dimen/inputForm" />
+
+        <Button
+            android:id="@+id/button_sendMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/darkpurple"
+            android:text="@string/sendMessageContact_button"
+            android:textColor="@color/white_bg"
+            android:textSize="@dimen/buttonForm" />
+    </LinearLayout>
+
+</LinearLayout>
